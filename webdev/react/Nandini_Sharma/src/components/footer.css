@@ -1,0 +1,14 @@
+
+
+
+
+
+
+#foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    background-color: black;
+    color: white;
+}

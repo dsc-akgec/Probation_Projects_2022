@@ -1,0 +1,144 @@
+@import url();
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+.body{
+  background-color: bisque;
+}
+.tnavbar-b h2{
+color: black;
+text-align:left;
+
+}
+.top a{
+  text-decoration: none;
+}
+.top a:hover{
+  color: wheat;
+}
+.top{
+  justify-content: space-evenly;
+}
+.search{
+  padding-left: 85%;
+  
+}
+.button {
+  background: white;
+  width: 150px;
+  height: 35px;
+  font-size: 20px;
+  margin: 1rem 0;
+  border: 1px solid black ;
+}
+.button:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 1px black;
+}
+.content{
+background-color:black;
+align-items: center;
+color:white;
+}
+ .content1{ 
+  background-image: url(C:\Users\raish\newss2\newss2\src\image\4.jpg) ;
+  background-repeat: no-repeat;
+  background-size:cover;
+  width: 100%;
+  height:auto;
+
+ }
+
+.content2 h1{
+  font:'Sigmar One', cursive;
+  text-align: center;
+}
+.content2 p{
+  text-align: center;
+  padding-bottom: 7px;
+}
+
+.navig li{
+  color: white;
+  display:inline;
+letter-spacing: 1px;
+word-spacing: 50%;
+justify-content: space-evenly;
+text-transform: uppercase;
+  width:100%;
+
+}
+.navig a{
+  color: white;
+  justify-content: space-evenly;
+  padding: 22px;
+  text-decoration: none;
+}
+.navig a:hover{
+  color:wheat;
+  
+}
+.containerr p{
+  color:black;
+}
+.containerr{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+  background-color: black;
+  padding: 10px;
+}
+.button {
+  background: white;
+  width: 150px;
+  height: 35px;
+  font-size: 20px;
+  margin: 1rem 0;
+  border: 1px solid rgb(186,186,186);
+}
+.button:hover{
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #fdfdfd;
+}
+.card{
+  height: 500px;
+  background-color: rgb(212, 219, 204);
+  border: black;
+  width:auto;
+  
+}
+.socials{
+background-color: black;
+color: white;
+
+}
+.socials a{
+color: white;
+display:inline;
+letter-spacing: 1px;
+text-decoration: none;
+text-transform: uppercase;
+width:100%;
+padding: 30px;
+  
+}
+.list-inline li{
+  color: white;
+ display: inline;
+letter-spacing: 1px;
+word-spacing: 50%;
+justify-content: space-evenly;
+text-transform: uppercase;
+  width:100%;
+}
+.socials a:hover{
+  color:wheat;
+}
+.socials h2{
+  text-align: center;
+}
+.socials p{
+  text-align: center;
+}
+.socials h4{
+  color: white;
+  padding-left: 60px;
+}

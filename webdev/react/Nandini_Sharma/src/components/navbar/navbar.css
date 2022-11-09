@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Silkscreen&display=swap');
+*{
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+.nav{
+    z-index: 5;
+    position: absolute;
+    height: 10vh;
+    align-items: center;
+display:flex;
+justify-content: space-between;
+background-color: black;
+position: fixed;
+width: 100vw;
+}
+#logo{color: white;
+    
+    font-family: 'Silkscreen', cursive;
+}
+
+#links{color: white;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50vw;   
+    margin-right: 20px; 
+}
+#links li{
+    padding: 5px;
+}
+
+
+#links li:hover{
+    background-color: white;
+    color: black;
+}
+
+@media (max-width:720px){
+
+.nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+ #links{
+    text-align: center;
+    margin: auto;
+    width: 100vw;
+    background-color: black;
+    display: block;
+ }
+
+
+
+
+}

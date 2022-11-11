@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+}
+.body{
+    background: rgb(53,43,222);
+background: linear-gradient(90deg, rgba(53,43,222,1) 0%, rgba(81,134,198,1) 49%, rgba(242,242,242,1) 100%);
+}
+header{
+    display: flex;
+    margin: 0;
+    position: relative;
+    background-color: #81C6E8;
+    height: 100px;
+}
+.logo{
+    position: absolute;
+    width: 200px;
+    top: -50px;
+}
+.page_heading{
+    font-size: 50px;
+    text-shadow: 5px 5px 5px #D58BDD;
+    color: #372948;
+    margin-bottom: 10px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+.social{
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+.social>a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+.catpanel{
+    background-color: #98A8F8;
+    overflow: hidden;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+}
+.nav-link{
+    text-decoration: none;
+    color:#e5dfec;
+    display: block;
+    padding: 14px 16px;
+    font-size: 20px;
+    text-align: center;
+
+}
+.nav-link:hover{
+    background-color: #372948;
+}
+
+.news_article{
+    background-color: #EEF1FF;
+    max-width: 400px;
+    border: solid 2px #98A8F8;
+    margin: 10px 0px 0px;
+    padding: 5px;
+    box-shadow: 10px 10px 10px #150050;
+    position: relative;
+    transition: 0.5s all ease-in-out;
+    border-radius: 10px;
+    height: 520px;
+}
+.news_article>img{
+    width: 24rem;
+}
+.news_article:hover{
+    transform: scale(0.9);
+    
+}
+
+
+.news_article>div>span{
+    background-color: #EFEFEF;
+    color: grey;
+}
+.news_all{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    
+}
+.news_heading{
+    color: #3F0071;
+}
+.news_desc{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+hr{
+    margin-top: 10px;
+    border: solid 1px;
+    color: #BCCEF8;
+}
+.news_author{
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+.news_date{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+}
+.footer{
+    text-align: center;
+    margin-top: 20px;
+    background: rgb(53,43,222);
+    background: linear-gradient(90deg, rgba(53,43,222,1) 0%, rgba(81,134,198,1) 49%, rgba(242,242,242,1) 100%);;
+}
+
+
+/*--------------css for mobile view------------*/
+
+@media screen and (max-width: 500px) {
+    .news_all{
+        display: block;
+    }
+    .news_heading,.news_desc{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+    }
+    .news_article{
+        width: auto;
+        margin: 10px 2px;
+    }
+  }
